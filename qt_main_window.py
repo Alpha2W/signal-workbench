@@ -1,4 +1,4 @@
-import osc_gui          #Custom module  (Qt designer ui file transformed)
+import Ui_osc_gui          #Custom module  (Qt designer ui file transformed)
 from PyQt5 import QtWidgets, QtSerialPort, QtCore, QtGui                #Official module
 from collections import deque           #Official module
 import array, pyqtgraph            # Official module
@@ -14,7 +14,7 @@ class OscMainWindow(QtWidgets.QMainWindow):
                 self.show()
 
         def initUI(self):
-                self.ui = osc_gui.Ui_MainWindow()               #Setup UI using "ui" file made from Qt Designer
+                self.ui = Ui_osc_gui.Ui_MainWindow()               #Setup UI using "ui" file made from Qt Designer
                 self.ui.setupUi(self)
                 self.showMaximized()            #Following: MainWindow and dock widgets states configure
                 self.tabifyDockWidget(self.ui.dockWidget_control, self.ui.dockWidget_measure)

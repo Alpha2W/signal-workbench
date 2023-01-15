@@ -1,0 +1,15 @@
+<RCC>
+  <qresource prefix="/">
+    <file>icons/dac_out_dc.png</file>
+    <file>icons/dac_out_seno.png</file>
+    <file>icons/dac_out_sierra.png</file>
+    <file>icons/dac_out_tren_pulso.png</file>
+    <file>icons/dac_out_triangular.png</file>
+    <file>icons/play_black.svg</file>
+    <file>icons/play_white.svg</file>
+    <file>icons/settings_black.svg</file>
+    <file>icons/settings_white.svg</file>
+    <file>icons/stop_black.svg</file>
+    <file>icons/stop_white.svg</file>
+  </qresource>
+</RCC>
